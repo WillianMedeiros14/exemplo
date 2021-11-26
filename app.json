@@ -1,11 +1,27 @@
 {
+  "name": "login",
+  "displayName": "login",
   "expo": {
-    "name": "login",
+    "name": "Login",
     "slug": "login",
     "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
     "assetBundlePatterns": [
       "**/*"
-    ]
-  },
-  "name": "login"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.trabalho.login",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.trabalho.login",
+      "versionCode": 1
+    },
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#253274"
+    }
+  }
 }
