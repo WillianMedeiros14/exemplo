@@ -109,7 +109,7 @@ function AuthProvider({ children }: AuthProviderProps) {
  
         } catch {
             if(verification != true){
-                Alert.alert('Não foi possível altenticar');
+                console.log('Não foi possível altenticar');
             }
         } finally {
             setLoading(false);
